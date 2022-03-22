@@ -1,3 +1,7 @@
-23
-dsf
-第三方
+git status 			查看状态
+git add pro		添加到暂存区
+git commit -m 'v1' pro	提交到本地
+git reflog			查看log
+git log			查看详细log
+git reset --hard ER323G	回退版本
+
