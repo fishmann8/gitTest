@@ -1,7 +1,20 @@
 git status 			查看状态
+
 git add pro		添加到暂存区
 git commit -m 'v1' pro	提交到本地
+
 git reflog			查看log
 git log			查看详细log
+
 git reset --hard ER323G	回退版本
 
+git branch -v		查看分支
+git branch myBranch		创建分支
+git checkout		切换分支
+git merge	myBranch		合并分支  ( 把myBranch合并到master上 )
+				自动合并失败后要自己修改代码, 并重新添加和提交 提交时无需文件名
+
+git remote add 名字 链接	添加别名
+git remote -v		查看别名
+
+git push 别名/地址 分支名称	push
